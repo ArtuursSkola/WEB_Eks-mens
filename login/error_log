@@ -1,0 +1,33 @@
+[29-Sep-2025 19:48:41 Europe/Riga] PHP Warning:  include(con_db.php): Failed to open stream: No such file or directory in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/login/login.php on line 3
+[29-Sep-2025 19:48:41 Europe/Riga] PHP Warning:  include(): Failed opening 'con_db.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/login/login.php on line 3
+[29-Sep-2025 20:01:30 Europe/Riga] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'grobina1_kliecis.Net_userss' doesn't exist in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/login/register.php:11
+Stack trace:
+#0 /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/login/register.php(11): mysqli_query()
+#1 {main}
+  thrown in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/login/register.php on line 11
+[29-Sep-2025 20:01:59 Europe/Riga] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'grobina1_kliecis.Net_users' doesn't exist in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/login/register.php:11
+Stack trace:
+#0 /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/login/register.php(11): mysqli_query()
+#1 {main}
+  thrown in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/login/register.php on line 11
+[29-Sep-2025 20:02:22 Europe/Riga] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'grobina1_kliecis.Net_users' doesn't exist in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/login/register.php:11
+Stack trace:
+#0 /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/login/register.php(11): mysqli_query()
+#1 {main}
+  thrown in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/login/register.php on line 11
+[29-Sep-2025 20:10:34 Europe/Riga] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'grobina1_kliecis.Net_users' doesn't exist in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/login/login.php:10
+Stack trace:
+#0 /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/login/login.php(10): mysqli_query()
+#1 {main}
+  thrown in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/login/login.php on line 10
+[29-Sep-2025 21:10:04 Europe/Riga] PHP Warning:  include(con_db.php): Failed to open stream: No such file or directory in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/login/update-account.php on line 3
+[29-Sep-2025 21:10:04 Europe/Riga] PHP Warning:  include(): Failed opening 'con_db.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/login/update-account.php on line 3
+[29-Sep-2025 21:10:04 Europe/Riga] PHP Warning:  Undefined variable $savienojums in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/login/update-account.php on line 9
+[29-Sep-2025 21:10:04 Europe/Riga] PHP Fatal error:  Uncaught TypeError: mysqli_real_escape_string(): Argument #1 ($mysql) must be of type mysqli, null given in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/login/update-account.php:9
+Stack trace:
+#0 /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/login/update-account.php(9): mysqli_real_escape_string()
+#1 {main}
+  thrown in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/login/update-account.php on line 9
+[29-Sep-2025 21:23:10 Europe/Riga] PHP Parse error:  syntax error, unexpected token "else" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/login/login.php on line 29
+[29-Sep-2025 21:23:19 Europe/Riga] PHP Parse error:  syntax error, unexpected token "else" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/login/login.php on line 30
+[29-Sep-2025 21:23:20 Europe/Riga] PHP Parse error:  syntax error, unexpected token "else" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/login/login.php on line 30

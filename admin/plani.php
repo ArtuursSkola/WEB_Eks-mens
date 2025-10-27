@@ -1,0 +1,303 @@
+<?php
+session_start();
+include("../con_db.php");
+
+// Only allow admins or moderators
+if (!isset($_SESSION['username']) || 
+    !isset($_SESSION['loma']) || 
+    !in_array($_SESSION['loma'], ['administrators', 'moderators'])) {
+    header("Location: ../index.php");
+    exit;
+}
+
+$limit = 15;
+$page = isset($_GET['page']) && is_numeric($_GET['page']) ? (int)$_GET['page'] : 1;
+$offset = ($page - 1) * $limit;
+
+// Count total plans
+$countResult = mysqli_query($savienojums, "SELECT COUNT(*) AS total FROM net_plans");
+$totalPlans = mysqli_fetch_assoc($countResult)['total'];
+$totalPages = ceil($totalPlans / $limit);
+
+// Fetch paginated plans
+$sql = "SELECT id, name, speed, price, router_price, description, icon, created_at, last_edit_at 
+        FROM net_plans ORDER BY id ASC LIMIT $limit OFFSET $offset";
+$result = mysqli_query($savienojums, $sql);
+?>
+
+<?php include("headerr.php"); ?>
+<div class="mains">
+<main class="admin-container">
+    <h1>Interneta Plāni</h1>
+    <button id="createPlanBtn" class="btn" style="float:right; margin-bottom: 1rem;">
+        <i class="fas fa-plus"></i> Izveidot jaunu plānu
+    </button>
+
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nosaukums</th>
+                <th>Ātrums</th>
+                <th>Cena</th>
+                <th>Rūtera īre</th>
+                <th>Apraksts</th>
+                <th>Ikona</th>
+                <th>Darbība</th>
+            </tr>
+        </thead>
+        <tbody>
+            <?php if(mysqli_num_rows($result) > 0): ?>
+                <?php while($row = mysqli_fetch_assoc($result)): ?>
+                    <tr data-id="<?php echo $row['id']; ?>"
+                        data-name="<?php echo htmlspecialchars($row['name']); ?>"
+                        data-speed="<?php echo htmlspecialchars($row['speed']); ?>"
+                        data-price="<?php echo $row['price']; ?>"
+                        data-router_price="<?php echo $row['router_price']; ?>"
+                        data-description="<?php echo htmlspecialchars($row['description']); ?>"
+                        data-icon="<?php echo htmlspecialchars($row['icon']); ?>"
+                        data-created_at="<?php echo $row['created_at']; ?>"
+                        data-last_edit_at="<?php echo $row['last_edit_at']; ?>">
+
+                        <td><?php echo $row['id']; ?></td>
+                        <td><?php echo htmlspecialchars($row['name']); ?></td>
+                        <td><?php echo htmlspecialchars($row['speed']); ?></td>
+                        <td><?php echo $row['price']; ?> €</td>
+                        <td><?php echo $row['router_price']; ?> €</td>
+                        <td><?php echo htmlspecialchars($row['description']); ?></td>
+                        <td><i class="<?php echo htmlspecialchars($row['icon']); ?>"></i></td>
+                        <td>
+                            <button class="edit-btn"><i class="fas fa-edit"></i></button>
+                            <button class="delete-btn"><i class="fa-solid fa-trash"></i></button>
+                        </td>
+                    </tr>
+                <?php endwhile; ?>
+            <?php else: ?>
+                <tr><td colspan="8">Nav pievienotu plānu</td></tr>
+            <?php endif; ?>
+        </tbody>
+    </table>
+</main>
+
+<div class="pagination" style="margin-top:1rem;">
+<?php if($page > 1): ?>
+    <a href="?page=<?php echo $page-1; ?>" class="btn">Iepriekšējā lapa</a>
+<?php endif; ?>
+<?php if($page < $totalPages): ?>
+    <a href="?page=<?php echo $page+1; ?>" class="btn">Nākošā lapa</a>
+<?php endif; ?>
+</div>
+
+<!-- Create Modal -->
+<div id="createModal" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Izveidot jaunu plānu</h2>
+        <form id="createForm">
+            <label>Nosaukums:</label>
+            <input type="text" name="name" id="create-name" required>
+            <label>Ātrums:</label>
+            <input type="text" name="speed" id="create-speed" required>
+            <label>Cena (€):</label>
+            <input type="number" step="0.01" name="price" id="create-price" required>
+            <label>Rūtera īre (€):</label>
+            <input type="number" step="0.01" name="router_price" id="create-router_price" required>
+            <label>Apraksts:</label>
+            <textarea name="description" id="create-description" required></textarea>
+            <label>Ikona (FontAwesome klases):</label>
+            <input type="text" name="icon" id="create-icon">
+            <button type="submit" class="btn">Izveidot</button>
+        </form>
+    </div>
+</div>
+
+<!-- Edit Modal -->
+<div id="editModal" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Rediģēt plānu</h2>
+        <form id="editForm">
+            <input type="hidden" name="id" id="edit-id">
+            <label>Nosaukums:</label>
+            <input type="text" name="name" id="edit-name" required>
+            <label>Ātrums:</label>
+            <input type="text" name="speed" id="edit-speed" required>
+            <label>Cena (€):</label>
+            <input type="number" step="0.01" name="price" id="edit-price" required>
+            <label>Rūtera īre (€):</label>
+            <input type="number" step="0.01" name="router_price" id="edit-router_price" required>
+            <label>Apraksts:</label>
+            <textarea name="description" id="edit-description" required></textarea>
+            <label>Ikona:</label>
+            <input type="text" name="icon" id="edit-icon">
+            <button type="submit" class="btn">Saglabāt</button>
+            <div class="timestamps" style="display:flex; justify-content:space-between; margin-top:10px; font-size:0.85rem; color:#555;">
+    <span id="createdAt"></span>
+    <span id="lastEditAt"></span>
+</div>
+
+        </form>
+    </div>
+</div>
+
+<style>
+    
+.admin-container {
+    padding: 2rem;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+.admin-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.admin-container th,
+.admin-container td {
+    border: 1px solid #ccc;
+    padding: 0.75rem 1rem;
+    text-align: left;
+    white-space: normal;
+}
+.admin-container td{
+    background: #fff;
+}
+
+.admin-container th {
+    background-color: #05b823;
+    color: #fff;
+}
+.modal {
+    position: fixed; top: 0; left: 0; width:100%; height:100%;
+    background: rgba(0,0,0,0.5);
+    display:flex; justify-content:center; align-items:center;
+}
+.modal-content {
+    background:#fff; padding:2rem; border-radius:8px;
+    width:400px; position:relative;
+}
+.modal-content .close {
+    position:absolute; top:10px; right:10px; font-size:1.5rem; cursor:pointer;
+}
+footer{
+    margin-top:0;
+}
+button { background: none; border: none; cursor: pointer; font-size: 1rem; margin-right: 5px; }
+i {
+color: var(--main);
+background-color: none;
+}
+</style>
+
+<script>
+const editModal = document.getElementById('editModal');
+const editForm = document.getElementById('editForm');
+document.querySelectorAll('.edit-btn').forEach(btn => {
+    btn.addEventListener('click', e => {
+        const tr = e.target.closest('tr');
+        document.getElementById('edit-id').value = tr.dataset.id;
+        document.getElementById('edit-name').value = tr.dataset.name;
+        document.getElementById('edit-speed').value = tr.dataset.speed;
+        document.getElementById('edit-price').value = tr.dataset.price;
+        document.getElementById('edit-router_price').value = tr.dataset.router_price;
+        document.getElementById('edit-description').value = tr.dataset.description;
+        document.getElementById('edit-icon').value = tr.dataset.icon;
+
+        // ✅ Latvian short date format
+        document.getElementById('createdAt').textContent =
+            "Izveidots: " +
+            new Date(tr.dataset.created_at).toLocaleString('lv-LV', {
+                day: '2-digit',
+                month: '2-digit',
+                year: 'numeric',
+                hour: '2-digit',
+                minute: '2-digit'
+            }).replace(',', '');
+
+        document.getElementById('lastEditAt').textContent = tr.dataset.last_edit_at
+            ? "Pēdējoreiz rediģēts: " +
+              new Date(tr.dataset.last_edit_at).toLocaleString('lv-LV', {
+                  day: '2-digit',
+                  month: '2-digit',
+                  year: 'numeric',
+                  hour: '2-digit',
+                  minute: '2-digit'
+              }).replace(',', '')
+            : "Nav rediģēts";
+
+        editModal.style.display = 'flex';
+    });
+});
+
+editModal.querySelector('.close').onclick = () => editModal.style.display = 'none';
+window.onclick = e => { if(e.target === editModal) editModal.style.display = 'none'; };
+
+editForm.addEventListener('submit', async e => {
+    e.preventDefault();
+    const id = document.getElementById('edit-id').value;
+    const data = {
+        name: document.getElementById('edit-name').value,
+        speed: document.getElementById('edit-speed').value,
+        price: document.getElementById('edit-price').value,
+        router_price: document.getElementById('edit-router_price').value,
+        description: document.getElementById('edit-description').value,
+        icon: document.getElementById('edit-icon').value
+    };
+    const response = await fetch(`api/plani_api.php?id=${id}`, {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data)
+    });
+    const result = await response.json();
+    alert(result.message || result.error);
+    if(response.ok) location.reload();
+});
+
+// Delete
+document.querySelectorAll('.delete-btn').forEach(btn => {
+    btn.addEventListener('click', async e => {
+        if(!confirm("Vai tiešām dzēst šo plānu?")) return;
+        const tr = e.target.closest('tr');
+        const id = tr.dataset.id;
+        const response = await fetch(`api/plani_api.php?id=${id}`, { method: 'DELETE' });
+        const result = await response.json();
+        alert(result.message || result.error);
+        if(response.ok) tr.remove();
+    });
+});
+
+// Create
+const createModal = document.getElementById('createModal');
+const createBtn = document.getElementById('createPlanBtn');
+const createForm = document.getElementById('createForm');
+createBtn.addEventListener('click', () => createModal.style.display = 'flex');
+createModal.querySelector('.close').onclick = () => createModal.style.display = 'none';
+window.onclick = e => { if(e.target === createModal) createModal.style.display = 'none'; };
+
+createForm.addEventListener('submit', async e => {
+    e.preventDefault();
+    const data = {
+        name: document.getElementById('create-name').value,
+        speed: document.getElementById('create-speed').value,
+        price: document.getElementById('create-price').value,
+        router_price: document.getElementById('create-router_price').value,
+        description: document.getElementById('create-description').value,
+        icon: document.getElementById('create-icon').value
+    };
+    const response = await fetch('api/plani_api.php', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data),
+        credentials: 'include'
+    });
+    const result = await response.json();
+    alert(result.message || result.error);
+    if (response.ok) location.reload();
+});
+</script>
+</div>
+<?php include("footer.php"); ?>
+</body>
+</html>

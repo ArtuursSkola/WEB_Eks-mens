@@ -1,0 +1,129 @@
+[03-Oct-2025 00:28:20 Europe/Riga] PHP Fatal error:  Uncaught Error: mysqli_stmt::bind_param(): Argument #6 cannot be passed by reference in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/klienti_api.php:97
+Stack trace:
+#0 {main}
+  thrown in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/klienti_api.php on line 97
+[03-Oct-2025 00:28:21 Europe/Riga] PHP Fatal error:  Uncaught Error: mysqli_stmt::bind_param(): Argument #6 cannot be passed by reference in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/klienti_api.php:97
+Stack trace:
+#0 {main}
+  thrown in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/klienti_api.php on line 97
+[03-Oct-2025 00:28:23 Europe/Riga] PHP Fatal error:  Uncaught Error: mysqli_stmt::bind_param(): Argument #6 cannot be passed by reference in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/klienti_api.php:97
+Stack trace:
+#0 {main}
+  thrown in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/klienti_api.php on line 97
+[03-Oct-2025 00:28:29 Europe/Riga] PHP Fatal error:  Uncaught Error: mysqli_stmt::bind_param(): Argument #6 cannot be passed by reference in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/klienti_api.php:97
+Stack trace:
+#0 {main}
+  thrown in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/klienti_api.php on line 97
+[03-Oct-2025 00:28:31 Europe/Riga] PHP Fatal error:  Uncaught Error: mysqli_stmt::bind_param(): Argument #6 cannot be passed by reference in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/klienti_api.php:97
+Stack trace:
+#0 {main}
+  thrown in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/klienti_api.php on line 97
+[03-Oct-2025 00:32:04 Europe/Riga] PHP Fatal error:  Uncaught Error: mysqli_stmt::bind_param(): Argument #6 cannot be passed by reference in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/klienti_api.php:97
+Stack trace:
+#0 {main}
+  thrown in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/klienti_api.php on line 97
+[03-Oct-2025 00:44:27 Europe/Riga] PHP Fatal error:  Uncaught Error: mysqli_stmt::bind_param(): Argument #6 cannot be passed by reference in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/klienti_api.php:97
+Stack trace:
+#0 {main}
+  thrown in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/klienti_api.php on line 97
+[03-Oct-2025 00:44:28 Europe/Riga] PHP Fatal error:  Uncaught Error: mysqli_stmt::bind_param(): Argument #6 cannot be passed by reference in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/klienti_api.php:97
+Stack trace:
+#0 {main}
+  thrown in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/klienti_api.php on line 97
+[03-Oct-2025 00:54:35 Europe/Riga] PHP Fatal error:  Uncaught Error: mysqli_stmt::bind_param(): Argument #6 cannot be passed by reference in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/klienti_api.php:97
+Stack trace:
+#0 {main}
+  thrown in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/klienti_api.php on line 97
+[03-Oct-2025 13:50:53 Europe/Riga] PHP Fatal error:  Uncaught Error: mysqli_stmt::bind_param(): Argument #6 cannot be passed by reference in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/klienti_api.php:107
+Stack trace:
+#0 {main}
+  thrown in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/klienti_api.php on line 107
+[03-Oct-2025 13:51:47 Europe/Riga] PHP Fatal error:  Uncaught Error: mysqli_stmt::bind_param(): Argument #6 cannot be passed by reference in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/klienti_api.php:100
+Stack trace:
+#0 {main}
+  thrown in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/klienti_api.php on line 100
+[03-Oct-2025 13:59:45 Europe/Riga] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'grobina1_kliecis' for key 'username' in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/klienti_api.php:115
+Stack trace:
+#0 /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/klienti_api.php(115): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/klienti_api.php on line 115
+[03-Oct-2025 13:59:55 Europe/Riga] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'grobina1_klieciss' for key 'username' in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/klienti_api.php:115
+Stack trace:
+#0 /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/klienti_api.php(115): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/klienti_api.php on line 115
+[03-Oct-2025 14:01:02 Europe/Riga] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'grobina1_kliecis' for key 'username' in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/klienti_api.php:115
+Stack trace:
+#0 /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/klienti_api.php(115): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/klienti_api.php on line 115
+[03-Oct-2025 15:35:47 Europe/Riga] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/darbinieki_api.php:40
+Stack trace:
+#0 /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/darbinieki_api.php(40): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/darbinieki_api.php on line 40
+[03-Oct-2025 15:37:54 Europe/Riga] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/darbinieki_api.php:40
+Stack trace:
+#0 /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/darbinieki_api.php(40): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/darbinieki_api.php on line 40
+[03-Oct-2025 15:38:56 Europe/Riga] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/darbinieki_api.php:40
+Stack trace:
+#0 /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/darbinieki_api.php(40): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/darbinieki_api.php on line 40
+[03-Oct-2025 19:39:37 Europe/Riga] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'arthurkliecis6@gmail.com' for key 'email' in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/klienti_api.php:99
+Stack trace:
+#0 /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/klienti_api.php(99): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/klienti_api.php on line 99
+[03-Oct-2025 19:39:38 Europe/Riga] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'arthurkliecis6@gmail.com' for key 'email' in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/klienti_api.php:99
+Stack trace:
+#0 /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/klienti_api.php(99): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/klienti_api.php on line 99
+[03-Oct-2025 19:39:40 Europe/Riga] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'arthurkliecis6@gmail.com' for key 'email' in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/klienti_api.php:99
+Stack trace:
+#0 /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/klienti_api.php(99): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/klienti_api.php on line 99
+[03-Oct-2025 19:48:54 Europe/Riga] PHP Warning:  require(../../vendor/autoload.php): Failed to open stream: No such file or directory in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/send_email.php on line 7
+[03-Oct-2025 19:48:54 Europe/Riga] PHP Fatal error:  Uncaught Error: Failed opening required '../../vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/send_email.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/send_email.php on line 7
+[03-Oct-2025 20:05:02 Europe/Riga] PHP Warning:  require(/home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/../PHPMailer/src/Exception.php): Failed to open stream: No such file or directory in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/send_email.php on line 8
+[03-Oct-2025 20:05:02 Europe/Riga] PHP Fatal error:  Uncaught Error: Failed opening required '/home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/../PHPMailer/src/Exception.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/send_email.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/send_email.php on line 8
+[03-Oct-2025 20:05:17 Europe/Riga] PHP Warning:  require(/home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/../PHPMailer/src/Exception.php): Failed to open stream: No such file or directory in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/send_email.php on line 8
+[03-Oct-2025 20:05:17 Europe/Riga] PHP Fatal error:  Uncaught Error: Failed opening required '/home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/../PHPMailer/src/Exception.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/send_email.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/send_email.php on line 8
+[03-Oct-2025 20:08:37 Europe/Riga] PHP Warning:  require(/home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/../../PHPMailer/src/Exception.php): Failed to open stream: No such file or directory in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/send_email.php on line 8
+[03-Oct-2025 20:08:37 Europe/Riga] PHP Fatal error:  Uncaught Error: Failed opening required '/home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/../../PHPMailer/src/Exception.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/send_email.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/send_email.php on line 8
+[03-Oct-2025 20:08:48 Europe/Riga] PHP Warning:  require(/home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/../../PHPMailer/src/Exception.php): Failed to open stream: No such file or directory in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/send_email.php on line 8
+[03-Oct-2025 20:08:48 Europe/Riga] PHP Fatal error:  Uncaught Error: Failed opening required '/home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/../../PHPMailer/src/Exception.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/send_email.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/send_email.php on line 8
+[03-Oct-2025 20:12:40 Europe/Riga] PHP Warning:  require(/home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/../../PHPMailer/src/Exception.php): Failed to open stream: No such file or directory in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/send_email.php on line 8
+[03-Oct-2025 20:12:40 Europe/Riga] PHP Fatal error:  Uncaught Error: Failed opening required '/home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/../../PHPMailer/src/Exception.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/send_email.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/send_email.php on line 8
+[05-Oct-2025 23:19:01 Europe/Riga] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'grobina1_kliecis.piedavajumi' doesn't exist in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/piedavajumi_api.php:71
+Stack trace:
+#0 /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/piedavajumi_api.php(71): mysqli->prepare()
+#1 {main}
+  thrown in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/piedavajumi_api.php on line 71
+[05-Oct-2025 23:19:02 Europe/Riga] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'grobina1_kliecis.piedavajumi' doesn't exist in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/piedavajumi_api.php:71
+Stack trace:
+#0 /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/piedavajumi_api.php(71): mysqli->prepare()
+#1 {main}
+  thrown in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/api/piedavajumi_api.php on line 71

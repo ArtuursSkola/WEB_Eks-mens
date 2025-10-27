@@ -1,0 +1,1812 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root{
+    --main: #05b823;
+    --dark-1: #181818;
+    --dark-2: #3e3d3d;
+    --light-1: #ffffff;
+    --light-2: #f7f7f7;
+    --box-shadow: 0 0.5rem 1.5rem rgba(0,0,0,10%);
+}
+
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: all .3s linear;
+    scroll-behavior: smooth;
+}
+
+body{
+    background: #e4e1e1;
+}
+
+header{
+
+    position: sticky;
+    top: 0;
+    width: 100%;
+    padding: 2rem 12%;
+    background: var(--dark-1);
+    box-shadow: var(--box-shadow);
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .btn{
+    color: var(--main);
+    background: none;
+    box-shadow: none;
+}
+header .btn:hover{
+    background: var(--main);
+    color: var(--light-1);
+    box-shadow: var(--box-shadow);
+}
+
+
+.btn{
+    display: inline-block;
+    padding: .1rem 1rem;
+    background: var(--main);
+    color: var(--light-1);
+    font-size: 16px;
+    border-radius: .5rem;
+    cursor: pointer;
+    box-shadow: var(--box-shadow);
+}
+
+nav .btn.active {
+    background-color: var(--main);
+    color: #fff; /* optional for contrast */
+}   
+.about i{
+    color: var(--main);
+    margin-right:8px;
+}
+.about strong{
+    color: var(--main);
+}
+.plan-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    margin-top: 1rem;
+    flex-wrap: wrap; /* Makes it responsive on smaller screens */
+}
+
+.plan-img-box {
+    text-align: center;
+    flex: 1 1 30%;
+    max-width: 200px;
+}
+
+.plan-img-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease;
+}
+
+.plan-img-box img:hover {
+    transform: scale(1.05);
+}
+
+.plan-img-box p {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: var(--main);
+}
+.pakalpojums-card h3{
+    color: var(--main);
+}
+.pakalpojumi {
+    text-align: center;
+    padding: 3rem 2rem;
+    background-color: var(--light-1);
+}
+body.dark-mode .pakalpojumi {
+    text-align: center;
+    padding: 3rem 2rem;
+    background-color: var(--dark-1);
+}
+
+.pakalpojumi h2 {
+    color: var(--dark-1);
+    margin-bottom: 1rem;
+    font-size: 32px;
+}
+
+body.dark-mode .pakalpojumi h2 {
+    color: var(--light-1);
+    margin-bottom: 1rem;
+    font-size: 32px;
+}
+.pakalpojumi-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    align-items: stretch;
+    margin-top: 0; /* remove extra top margin */
+    padding: 0; /* remove container padding */
+    background: none;
+}
+
+
+.pakalpojums-card {
+    background: #fff;
+    border-radius: 12px;
+    width: 280px;
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+    align-items: center;    /* Center all content horizontally */
+    padding: 1.5rem;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pakalpojums-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.15);
+}
+
+.pakalpojums-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.pakalpojums-card h3 {
+    margin-bottom: 0.5rem;
+    color: #333;
+    text-align: center;
+}
+
+.pakalpojums-card p {
+    text-align: center;
+    color: #555;
+    font-size: 0.95rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Footer at the very bottom */
+.pakalpojums-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: auto; /* Push to bottom */
+    width: 100%;
+}
+
+.pakalpojums-footer .price {
+    font-weight: bold;
+    color: #05b823;
+    margin-bottom: 0.5rem;
+}
+
+.pakalpojums-footer .order-btn {
+    padding: 0.5rem 1rem;
+    background-color: #05b823;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 0.5rem;
+}
+
+.pakalpojums-footer .order-btn:hover {
+    background-color: #04961d;
+}
+
+.pakalpojums-footer .order-count {
+    font-size: 0.9rem;
+    color: #333;
+}
+.pagination {
+    display: flex;
+    justify-content: center; /* centers the buttons horizontally */
+    margin-top: 1rem;
+    gap: 0.5rem; /* space between buttons */
+}
+
+.pagination a.btn {
+    padding: 0.5rem 1rem;
+    background-color: #05b823; /* match your theme */
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.2s;
+}
+
+.pagination a.btn:hover {
+    background-color: #039e1a; /* darker on hover */
+}
+
+
+body.dark-mode .pakalpojums-card {
+    background: #1f1f1f;
+    color: var(--light-1);
+    border-radius: 12px;
+    padding: 2rem 1.5rem;
+    width: 280px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+body.dark-mode .pakalpojums-card h3{
+   
+    color: var(--light-1);
+
+}
+
+body.dark-mode .pakalpojums-card p{
+        color: var(--light-1);
+
+}
+.pakalpojums-icon i{
+    color: var(--main);
+}
+
+.pakalpojums-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.15);
+}
+
+.pakalpojums-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.pakalpojums-card h3 {
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.pakalpojums-card p {
+    color: #555;
+    font-size: 0.95rem;
+    margin-bottom: 0.5rem;
+}
+
+.price {
+    color: #05b823;
+    margin-bottom: 1rem;
+    margin: auto;
+}
+
+
+.pakalpojums-card .order-btn {
+    margin-top: auto;
+    padding: 0.5rem 1rem;
+    background-color: #05b823;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.order-btn:hover {
+    background-color: #04961d;
+}
+
+
+.logo{
+    color: var(--main);
+}
+
+.main {
+  width: auto;
+  min-height: 50rem; /* keep at least 50rem for large screens */
+  background-image: url("images/background.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 20px;
+}
+
+/* Hide mobile dropdown by default */
+.mobile-dropdown {
+    display: none;
+}
+
+/* Make nav responsive below 900px */
+@media (max-width: 900px) {
+    /* Hide desktop links */
+    .admin-nav > a.btn {
+        display: none;
+    }
+
+    /* Show mobile dropdown button */
+    .mobile-dropdown {
+        display: inline-block;
+        position: relative;
+    }
+
+    /* Style dropdown content */
+    .mobile-dropdown .dropdown-content {
+        display: none;
+        position: absolute;
+        right: 0;
+        background-color: var(--light-1);
+        min-width: 150px;
+        box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.2);
+        border-radius: 5px;
+        z-index: 10;
+        transition: background 0.3s, color 0.3s;
+    }
+
+    .mobile-dropdown .dropdown-content a {
+        display: block;
+        padding: 10px;
+        color: var(--dark-1);
+        background-color: var(--light-1);
+        text-decoration: none;
+        transition: background 0.3s, color 0.3s;
+    }
+
+    .mobile-dropdown .dropdown-content a:hover,
+    .mobile-dropdown .dropdown-content a:focus,
+    .mobile-dropdown .dropdown-content a:active {
+        background-color: var(--main);
+        color: var(--light-1);
+        outline: none;
+    }
+
+    /* Show dropdown when JS adds .show */
+    .mobile-dropdown .dropdown-content.show {
+        display: block;
+    }
+
+    /* Dark mode overrides */
+    body.dark-mode .mobile-dropdown .dropdown-content {
+        background-color: var(--dark-2);
+    }
+    body.dark-mode .mobile-dropdown .dropdown-content a {
+        color: var(--light-1);
+        background-color: var(--dark-2);
+    }
+    body.dark-mode .mobile-dropdown .dropdown-content a:hover,
+    body.dark-mode .mobile-dropdown .dropdown-content a:focus,
+    body.dark-mode .mobile-dropdown .dropdown-content a:active {
+        background-color: var(--main);
+        color: var(--light-1);
+    }
+}
+/* Hide desktop nav links below 900px */
+/* Hide mobile dropdown by default */
+/* Hide mobile dropdown by default */
+.mobile-dropdown {
+    display: none !important; /* important ensures it overrides any other .dropdown rule */
+}
+
+/* Mobile: show dropdown below 900px */
+@media (max-width: 1150px) {
+    .admin-nav > a.btn {
+        display: none !important; /* hide desktop nav buttons */
+    }
+    .mobile-dropdown {
+        display: inline-block !important; /* show the dropdown button */
+    }
+}
+
+/* Desktop: show desktop nav buttons above 900px */
+@media (min-width: 1150px) {
+    .admin-nav > a.btn {
+        display: inline-block !important;
+    }
+    .mobile-dropdown {
+        display: none !important;
+    }
+}
+
+@media (max-width: 1230px) {
+  #createClientBtn {
+    float: left !important;
+    display: block;
+    margin-top: 1rem;
+  }
+}
+@media (max-width: 900px){
+    .mains h1{
+        text-align: left !important;
+    }
+}
+.mains{
+  width: auto;
+  min-height: 45rem;
+  background-image: url("images/background2.jpg");
+  background-size: cover;       /* make it cover the whole box */
+  background-repeat: no-repeat; /* no tiling */
+  background-position: center;  /* center the image */
+  padding: 20px;
+}
+.mains h1{
+    color: var(--light-1);
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+}
+.piedavajumi{
+    margin-top: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    
+}
+/* Style for expired plans */
+td.expired {
+    color: red;
+    font-weight: bold;
+}
+
+/* Style for active plans */
+td.active {
+    color: var(--main);
+    font-weight: bold;
+}
+
+
+.pirmais, .otrais, .tresais{
+    background: var(--light-1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+    width: 300px;
+    text-align: center;
+    padding-bottom: 5rem;
+    min-height: 23rem;
+
+    display: flex;
+    flex-direction: column;
+}
+.pirmais:hover, .otrais:hover, .tresais:hover{
+    transform: translateY(-15px);
+}
+
+.top-card{
+    padding-bottom: 2rem;
+}
+.top-card i{
+    color: var(--main);
+}
+
+.middle-card{
+    padding-bottom: 2rem;
+     flex-grow: 1;
+}
+
+#cards-btn{
+    width: 100%;
+     margin-top: auto;
+}
+#sveiki-btn{
+    color: var(--light-1);
+}
+#sveiki-btn:hover{
+    color: white;
+}
+
+/* Dropdown */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: var(--light-1);
+    min-width: 150px;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.2);
+    border-radius: 5px;
+    z-index: 10;
+}
+
+.dropdown-content.show {
+    display: block;
+}
+
+
+.dropdown-content a {
+    color: var(--dark-1);
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown .dropdown-content a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: var(--dark-1);          /* dark text for light mode */
+    background-color: var(--light-1); /* light background for light mode */
+    transition: background 0.3s, color 0.3s;
+    outline: none;                  /* remove default outline */
+}
+.dropdown .dropdown-content a:hover {
+    background-color: var(--main);
+    color: var(--light-1);
+}
+
+
+/* Hover, focus, and active states for links */
+.dropdown .dropdown-content a:hover,
+.dropdown .dropdown-content a:focus,
+.dropdown .dropdown-content a:active {
+    background-color: var(--main);  /* main color on hover */
+    color: var(--main);          /* white text */
+    outline: none;
+}
+
+/* Dark mode overrides */
+body.dark-mode .dropdown .dropdown-content a {
+    color: var(--light-1);          /* text light in dark mode */
+    background-color: var(--dark-2);/* dark background in dark mode */
+}
+body.dark-mode .dropdown .dropdown-content a:hover,
+body.dark-mode .dropdown .dropdown-content a:focus,
+body.dark-mode .dropdown .dropdown-content a:active {
+    background-color: var(--main);  /* same hover color */
+    color: var(--light-1);          /* same hover text */
+}
+
+
+/* Remove focus outline on click */
+.dropdown .dropdown-content a:focus {
+    outline: none;
+}
+.dropdown-content a:hover {
+    background-color: var(--main);
+    color: var(--light-1);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+/* Modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 50;    
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content {
+    background-color: var(--light-1);
+    margin: 10% auto;
+    padding: 2rem;
+    border-radius: 1rem;
+    max-width: 400px;
+    position: relative;
+    margin: auto;
+    margin-top: 3rem;
+}
+.timestamps {
+    display: flex;
+    flex-direction: column; /* stack vertically */
+    align-items: flex-start; /* align left */
+    margin-top: 10px;
+    font-size: 0.2rem;
+    color: #555;
+    gap: 4px; /* optional, space between the two */
+}
+
+
+.modal-content .close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.modal-content form {
+    display: flex;
+    flex-direction: column; /* stack labels & inputs vertically */
+    gap: 1rem; /* spacing between fields */
+}
+
+.modal-content label {
+    font-weight: bold;
+}
+
+.modal-content input {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+.modal-content select{
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    width: 100%;
+    box-sizing: border-box;
+    background: white;
+    color: #333;
+}
+.modal-content textarea {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    width: 100%;
+    box-sizing: border-box;
+    resize: vertical; /* allow vertical resizing */
+    min-height: 80px; /* minimum height for textarea */
+}
+
+.modal-content button {
+    padding: 0.7rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: var(--main);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.modal-content button:hover {
+    background-color: #04971c;
+}
+
+#openReviewModalBtn {
+    display: block;
+    margin: 20px auto; /* centers the button */
+    padding: 8px;
+}
+#openReviewModalBtn:hover {
+    background-color: #04971c;
+}
+.nosaukums{
+    color: var(--main);
+}
+#plans i{
+    color: var(--main);
+}
+.pakalpojumi p{
+
+    max-width: 700px;
+    margin: 0 auto 2rem;
+    color: var(--dark-1);
+}
+body.dark-mode .pakalpojumi p{
+
+    max-width: 700px;
+    margin: 0 auto 2rem;
+    color: var(--light-1);
+}
+
+.reviews {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    margin-top: 2rem;
+}
+.reviews h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: var(--dark-1);
+    font-size: 32px;
+}
+.reviews p{
+    text-align: center;
+    margin-bottom: 1.5rem;
+    max-width: 700px;
+    margin: 0 auto 2rem;
+    color: var(--dark-1);
+}
+.reviews-container {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.review-box {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.review-box h3 {
+    margin: 0 0 0.5rem 0;
+    align-items: center;
+    text-align: center;
+}
+.review-box p {
+    margin: 0.3rem 0;
+    color: var(--dark-1);
+}
+body.dark-mode .review-box p {
+    margin: 0.3rem 0;
+    color: var(--dark-1);
+}
+.review-form-container {
+    margin-top: 2rem;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.review-form-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.review-form-container input,
+.review-form-container textarea,
+.review-form-container select {
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+.review-form-container button {
+    margin-top: 1rem;
+}
+
+#lastEditAt, #createdAt{
+    color: var(--main);
+    font-size: 9px;
+    font-weight: bold  ;
+}
+
+.main h1{
+    color: var(--light-1);
+    text-align: center;
+    font-size: 50px;
+    margin-top: 10rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+}
+.main h1:hover {
+    scale: 1.05;
+}
+.review-box:hover {
+    transform: translateY(-5px);
+
+}
+
+.about {
+    text-align: center;
+    padding: 3rem 1rem;
+    margin-bottom: 2rem;
+    background: var(--light-1);
+}
+
+.about h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: var(--dark-1);
+}
+
+.about p {
+    max-width: 700px;
+    margin: 0 auto 2rem;
+    color: var(--dark-2);
+}
+
+.piedavajumi-kaste{
+    margin: 1.5rem 12rem;
+    border: #181818 2px solid;
+    background: var(--light-2);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: var(--box-shadow);
+}
+.piedavajumi-kaste h1{
+    text-align: center;
+    padding: 1rem;
+    color: var(--dark-1);
+   
+}
+
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.feature-box {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: var(--box-shadow);
+    transition: transform 0.3s;
+}
+
+.feature-box:hover {
+    transform: translateY(-5px);
+}
+
+.feature-box i {
+    color: var(--main);
+    margin-bottom: 0.5rem;
+}
+
+footer {
+    background: var(--dark-1);
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+    margin-top: 3rem;
+}
+
+.footer-content p {
+    margin: 0.5rem 0;
+    font-size: 0.95rem;
+}
+
+footer i {
+    margin-right: 0.5rem;
+    color: var(--main);
+}
+
+footer .copyright {
+    margin-top: 1rem;
+    font-size: 0.85rem;
+    color: #ccc;
+}
+.uzzinat .btn{
+    display: flex;
+    background: var(--main);
+    color: var(--light-2);
+    margin: 9px auto;
+}
+
+
+/* Login daļa */
+/* General page background for login/register */
+.auth-page {
+    min-height: 100vh;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    background: url("images/background.webp") no-repeat center center / cover;
+    padding: 2rem;
+}
+
+
+/* Card container for forms */
+.auth-container {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 2rem 3rem;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1.5rem rgba(0,0,0,0.2);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+.auth-container .back-btn {
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    background: none;
+    box-shadow: none;
+    color: var(--main);
+    padding: 0.3rem 0.4rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+.auth-container .back-btn i {
+    font-size: 1.2rem;
+}
+
+.auth-container .back-btn:hover {
+    background-color: #9cf1aa;
+}
+
+/* Headings */
+.auth-container h2 {
+    margin-bottom: 1.5rem;
+    color: var(--dark-1);
+    font-size: 1.8rem;
+}
+
+/* Form elements */
+.auth-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.auth-container label {
+    text-align: left;
+    font-weight: 500;
+    color: var(--dark-2);
+    margin-bottom: 0.3rem;
+}
+
+.auth-container input {
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
+
+.auth-container input:focus {
+    border-color: var(--main);
+    outline: none;
+    box-shadow: 0 0 5px rgba(5, 184, 35, 0.4);
+}
+
+/* Buttons */
+.auth-container button {
+    background: var(--main);
+    color: var(--light-1);
+    padding: 0.8rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.auth-container button:hover {
+    background: #04971c;
+}
+
+/* Links below forms */
+.auth-container p {
+    margin-top: 1rem;
+    font-size: 0.95rem;
+    color: var(--dark-2);
+}
+
+.auth-container a {
+    color: var(--main);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.auth-container a:hover {
+    text-decoration: underline;
+}
+
+body.dark-mode .auth-container h2{
+    color: #fff;
+}
+body.dark-mode .auth-container label{
+    color: #fff;
+}
+body.dark-mode .auth-container p{
+    color: #fff;
+}
+
+/* Login daļas beigas */
+/* For Chrome, Edge, Safari */
+::-webkit-scrollbar {
+    width: 30px; /* width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; /* track background */
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--main); /* green thumb */
+    border-radius: 6px;
+    border: 3px solid #f1f1f1; /* padding around the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #04a11a; /* darker green on hover */
+}
+
+/* For Firefox */
+* {
+    scrollbar-width:auto;
+    scrollbar-color: #05b823 #f1f1f1;
+}
+/* Text selection color */
+::selection {
+    background-color: var(--main); /* green background */
+    color: #ffffff; /* white text for contrast */
+}
+
+/* For Firefox */
+::-moz-selection {
+    background-color: var(--main);
+    color: #ffffff;
+}
+
+/* Dark mode styles */
+/* Dark mode styles */
+body.dark-mode {
+    background: #121212;
+    color: #f1f1f1;
+}
+
+body.dark-mode header {
+    background: #1e1e1e;
+}
+
+body.dark-mode .pirmais,
+body.dark-mode .otrais,
+body.dark-mode .tresais,
+body.dark-mode .feature-box,
+body.dark-mode .review-box,
+body.dark-mode .auth-container,
+body.dark-mode .piedavajumi-kaste {
+    background: #1f1f1f;
+    color: #f1f1f1;
+    border-color: #2a2a2a;
+}
+
+body.dark-mode .feature-box p{
+    color: #ccc;
+}
+body.dark-mode .about,
+body.dark-mode .reviews {
+    background: #141414;
+}
+body.dark-mode .about p,
+body.dark-mode .reviews p,
+body.dark-mode .reviews h2,
+body.dark-mode .about h2 {
+    color: #ffffff;
+}
+
+body.dark-mode footer {
+    background: #1e1e1e;
+    color: #ddd;
+}
+
+body.dark-mode .dropdown-content {
+    background: #2a2a2a;
+}
+
+body.dark-mode .modal-content {
+    background: #2a2a2a;
+    color: #f1f1f1;
+}
+body.dark-mode .admin-container h1{
+    color: #f1f1f1;
+}
+body.dark-mode .plan-box {
+    background-color: #2a2a2a;
+    border-color: #444;
+}
+body.dark-mode .plan-box strong{
+    color: var(--main);
+}
+body.dark-mode table td{
+    background: var(--dark-2);
+}
+body.dark-mode #par-mums h1{
+    color: #f1f1f1;
+}
+
+/* ===== PIEDAVAJUMI & ABOUT MODALS ===== */
+#piedavajumiModal,
+#aboutModal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    background: rgba(0,0,0,0.6);
+    backdrop-filter: blur(3px);
+}
+
+#piedavajumiModal .modal-content,
+#aboutModal .modal-content {
+    background: #fff;
+    margin: 3% auto;
+    padding: 2rem 2.5rem;
+    border-radius: 12px;
+    max-width: 900px;
+    width: 90%;
+    position: relative;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+    animation: fadeInUp 0.4s ease;
+}
+
+/* Close button for these modals */
+#piedavajumiModal .close,
+#aboutModal .close {
+    position: absolute;
+    top: 12px;
+    right: 18px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #444;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+#piedavajumiModal .close:hover,
+#aboutModal .close:hover {
+    color: #e74c3c;
+}
+
+/* Headings inside modals */
+#piedavajumiModal h2,
+#aboutModal h2 {
+    text-align: center;
+    margin-top: 0;
+    color: var(--main);
+}
+
+/* Content sections inside piedavajumiModal */
+#piedavajumiModal .plan-box {
+    background: #f9f9f9;
+    padding: 1.2rem 1.5rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+}
+
+#piedavajumiModal .plan-box h2 {
+    margin-bottom: 0.5rem;
+    color: var(--main);
+}
+#piedavajumiModal .plan-box strong{
+    color: var(--main);
+}
+
+/* About modal list */
+#aboutModal ul {
+    padding-left: 1.2rem;
+    margin-top: 1rem;
+}
+
+#aboutModal ul li {
+    margin-bottom: 0.6rem;
+    line-height: 1.5;
+    color: #444;
+}
+
+/* Table inside piedavajumiModal */
+#piedavajumiModal table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+#piedavajumiModal table th,
+#piedavajumiModal table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+#piedavajumiModal table th {
+    background: var(--main);
+    color: #fff;
+}
+
+#piedavajumiModal table tr:nth-child(even) {
+    background: #f2f2f2;
+}
+
+/* ===== ANIMATIONS ===== */
+@keyframes fadeInUp {
+    from { transform: translateY(30px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+/* ===== DARK MODE MODALS ===== */
+body.dark-mode #piedavajumiModal,
+body.dark-mode #aboutModal {
+    background: rgba(0, 0, 0, 0.85);
+}
+body.dark-mode #piedavajumiModal .plan-box h2 {
+    margin-bottom: 0.5rem;
+    color: var(--main);
+}
+body.dark-mode #piedavajumiModal .plan-box strong{
+    color: var(--main);
+}
+
+body.dark-mode #piedavajumiModal .modal-content,
+body.dark-mode #aboutModal .modal-content {
+    background: #1e1e1e;
+    color: #f0f0f0;
+    border: 1px solid #444;
+}
+
+body.dark-mode #piedavajumiModal .close,
+body.dark-mode #aboutModal .close {
+    color: #ccc;
+}
+body.dark-mode .auth-container{
+    background: #1e1e1e;
+    color: #f1f1f1;
+    border: 1px solid #444;
+}
+
+body.dark-mode #piedavajumiModal .close:hover,
+body.dark-mode #aboutModal .close:hover {
+    color: #e67e22;
+}
+
+body.dark-mode #piedavajumiModal .plan-box {
+    background: #2c2c2c;
+    border: 1px solid #555;
+}
+
+body.dark-mode #piedavajumiModal table th {
+    background: var(--main);
+}
+
+body.dark-mode #piedavajumiModal table tr:nth-child(even) {
+    background: #2a2a2a;
+}
+
+body.dark-mode #aboutModal ul li {
+    color: #ddd;
+}
+body.dark-mode #piedavajumiModal h2 {
+    color: var(--main);
+}
+body.dark-mode #aboutModal h2 {
+    color: #f1f1f1;
+}
+
+/* Back button for auth pages */
+
+
+/* ABOUT MODAL STYLING */
+/* About Modal Content Styling */
+.about-modal {
+    max-width: 800px;
+    width: 90%;
+    max-height: 80vh; /* Keep modal within viewport */
+    padding: 30px;
+    border-radius: 12px;
+    background-color: #ffffff;
+    color: #222;
+    overflow-y: auto;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    font-family: 'Arial', sans-serif;
+}
+
+/* Dark mode inside the modal */
+body.dark-mode .about-modal {
+    background-color: #1f1f1f;
+    color: #f0f0f0;
+}
+
+/* Headings */
+.about-modal h1 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    text-align: center;
+    color: var(--main);
+}
+.about-modal strong{
+    color: var(--main);
+}
+
+.about-modal h2 {
+    font-size: 1.4rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid var(--main);
+    padding-bottom: 5px;
+}
+
+/* Paragraphs */
+.about-modal p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Values list */
+.about-values {
+    list-style: none;
+    padding-left: 0;
+    margin: 10px 0 20px 0;
+}
+
+.about-values li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.about-values li i {
+    margin-right: 10px;
+    font-size: 1.2rem;
+    color: var(--main);
+}
+
+/* Scrollbar styling for modal */
+.about-modal::-webkit-scrollbar {
+    width: 8px;
+}
+
+.about-modal::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.about-modal::-webkit-scrollbar-thumb {
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 4px;
+}
+
+/* Dark mode scrollbar */
+body.dark-mode .about-modal::-webkit-scrollbar-thumb {
+    background-color: rgba(255,255,255,0.3);
+}
+.modal-content span{
+    color: var(--main);
+}
+body.dark-mode .modal-content span{
+    color: var(--main);
+}
+body.dark-mode #successModal .modal-content{
+    background: var(--dark-2);
+}
+
+#successModal {
+    display: flex; /* already set inline */
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0; 
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); /* semi-transparent dark overlay */
+    backdrop-filter: blur(4px); /* nice blur behind modal */
+    z-index: 1000;
+    animation: fadeIn 0.3s ease-out;
+}
+#successModal .modal-content {
+    background: #fff;
+    padding: 2rem 2.5rem;
+    border-radius: 12px;
+    max-width: 400px;
+    width: 90%;
+    position: relative;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+    text-align: center;
+    animation: fadeInUp 0.4s ease;
+}
+#successModal span, b{
+    color: var(--main);
+}
+body.dark-mode .dropdown-content a{
+    color: var(--main);
+}
+#sveiki-btn{
+    color: var(--main);
+}
+body.dark-mode .dropdown-content a:hover{
+    color: var(--light-1);
+}
+
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Optional: make close button stand out */
+#successModal .close {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #333;
+    transition: color 0.2s ease;
+}
+#successModal .close:hover {
+    color: #d33;
+    cursor: pointer;
+}
+
+/* Responsive text */
+@media (max-width: 600px) {
+    .about-modal {
+        padding: 20px;
+    }
+
+    .about-modal h1 {
+        font-size: 1.6rem;
+    }
+
+    .about-modal h2 {
+        font-size: 1.2rem;
+    }
+}
+
+
+/* UI Buttons And Elements */
+.theme-switch {
+    display: flex;
+    justify-content: center;
+  --toggle-size: 15px;
+  /* the size is adjusted using font-size,
+     this is not transform scale,
+     so you can choose any size */
+  --container-width: 5.625em;
+  --container-height: 2.5em;
+  --container-radius: 6.25em;
+  /* radius 0 - minecraft mode :) */
+  --container-light-bg: #3D7EAE;
+  --container-night-bg: #1D1F2C;
+  --circle-container-diameter: 3.375em;
+  --sun-moon-diameter: 2.125em;
+  --sun-bg: #ECCA2F;
+  --moon-bg: #C4C9D1;
+  --spot-color: #959DB1;
+  --circle-container-offset: calc((var(--circle-container-diameter) - var(--container-height)) / 2 * -1);
+  --stars-color: #fff;
+  --clouds-color: #F3FDFF;
+  --back-clouds-color: #AACADF;
+  --transition: .5s cubic-bezier(0, -0.02, 0.4, 1.25);
+  --circle-transition: .3s cubic-bezier(0, -0.02, 0.35, 1.17);
+}
+
+.theme-switch, .theme-switch *, .theme-switch *::before, .theme-switch *::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: var(--toggle-size);
+}
+
+.theme-switch__container {
+  width: var(--container-width);
+  height: var(--container-height);
+  background-color: var(--container-light-bg);
+  border-radius: var(--container-radius);
+  overflow: hidden;
+  cursor: pointer;
+  -webkit-box-shadow: 0em -0.062em 0.062em rgba(0, 0, 0, 0.25), 0em 0.062em 0.125em rgba(255, 255, 255, 0.94);
+  box-shadow: 0em -0.062em 0.062em rgba(0, 0, 0, 0.25), 0em 0.062em 0.125em rgba(255, 255, 255, 0.94);
+  -webkit-transition: var(--transition);
+  -o-transition: var(--transition);
+  transition: var(--transition);
+  position: relative;
+}
+
+.theme-switch__container::before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  inset: 0;
+  -webkit-box-shadow: 0em 0.05em 0.187em rgba(0, 0, 0, 0.25) inset, 0em 0.05em 0.187em rgba(0, 0, 0, 0.25) inset;
+  box-shadow: 0em 0.05em 0.187em rgba(0, 0, 0, 0.25) inset, 0em 0.05em 0.187em rgba(0, 0, 0, 0.25) inset;
+  border-radius: var(--container-radius)
+}
+
+.theme-switch__checkbox {
+  display: none;
+}
+
+.theme-switch__circle-container {
+  width: var(--circle-container-diameter);
+  height: var(--circle-container-diameter);
+  background-color: rgba(255, 255, 255, 0.1);
+  position: absolute;
+  left: var(--circle-container-offset);
+  top: var(--circle-container-offset);
+  border-radius: var(--container-radius);
+  -webkit-box-shadow: inset 0 0 0 3.375em rgba(255, 255, 255, 0.1), inset 0 0 0 3.375em rgba(255, 255, 255, 0.1), 0 0 0 0.625em rgba(255, 255, 255, 0.1), 0 0 0 1.25em rgba(255, 255, 255, 0.1);
+  box-shadow: inset 0 0 0 3.375em rgba(255, 255, 255, 0.1), inset 0 0 0 3.375em rgba(255, 255, 255, 0.1), 0 0 0 0.625em rgba(255, 255, 255, 0.1), 0 0 0 1.25em rgba(255, 255, 255, 0.1);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: var(--circle-transition);
+  -o-transition: var(--circle-transition);
+  transition: var(--circle-transition);
+  pointer-events: none;
+}
+
+.theme-switch__sun-moon-container {
+  pointer-events: auto;
+  position: relative;
+  z-index: 2;
+  width: var(--sun-moon-diameter);
+  height: var(--sun-moon-diameter);
+  margin: auto;
+  border-radius: var(--container-radius);
+  background-color: var(--sun-bg);
+  -webkit-box-shadow: 0.062em 0.062em 0.062em 0em rgba(254, 255, 239, 0.61) inset, 0em -0.062em 0.062em 0em #a1872a inset;
+  box-shadow: 0.062em 0.062em 0.062em 0em rgba(254, 255, 239, 0.61) inset, 0em -0.062em 0.062em 0em #a1872a inset;
+  -webkit-filter: drop-shadow(0.062em 0.125em 0.125em rgba(0, 0, 0, 0.25)) drop-shadow(0em 0.062em 0.125em rgba(0, 0, 0, 0.25));
+  filter: drop-shadow(0.062em 0.125em 0.125em rgba(0, 0, 0, 0.25)) drop-shadow(0em 0.062em 0.125em rgba(0, 0, 0, 0.25));
+  overflow: hidden;
+  -webkit-transition: var(--transition);
+  -o-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.theme-switch__moon {
+  -webkit-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+  width: 100%;
+  height: 100%;
+  background-color: var(--moon-bg);
+  border-radius: inherit;
+  -webkit-box-shadow: 0.062em 0.062em 0.062em 0em rgba(254, 255, 239, 0.61) inset, 0em -0.062em 0.062em 0em #969696 inset;
+  box-shadow: 0.062em 0.062em 0.062em 0em rgba(254, 255, 239, 0.61) inset, 0em -0.062em 0.062em 0em #969696 inset;
+  -webkit-transition: var(--transition);
+  -o-transition: var(--transition);
+  transition: var(--transition);
+  position: relative;
+}
+
+.theme-switch__spot {
+  position: absolute;
+  top: 0.75em;
+  left: 0.312em;
+  width: 0.75em;
+  height: 0.75em;
+  border-radius: var(--container-radius);
+  background-color: var(--spot-color);
+  -webkit-box-shadow: 0em 0.0312em 0.062em rgba(0, 0, 0, 0.25) inset;
+  box-shadow: 0em 0.0312em 0.062em rgba(0, 0, 0, 0.25) inset;
+}
+
+.theme-switch__spot:nth-of-type(2) {
+  width: 0.375em;
+  height: 0.375em;
+  top: 0.937em;
+  left: 1.375em;
+}
+
+.theme-switch__spot:nth-last-of-type(3) {
+  width: 0.25em;
+  height: 0.25em;
+  top: 0.312em;
+  left: 0.812em;
+}
+
+.theme-switch__clouds {
+  width: 1.25em;
+  height: 1.25em;
+  background-color: var(--clouds-color);
+  border-radius: var(--container-radius);
+  position: absolute;
+  bottom: -0.625em;
+  left: 0.312em;
+  -webkit-box-shadow: 0.937em 0.312em var(--clouds-color), -0.312em -0.312em var(--back-clouds-color), 1.437em 0.375em var(--clouds-color), 0.5em -0.125em var(--back-clouds-color), 2.187em 0 var(--clouds-color), 1.25em -0.062em var(--back-clouds-color), 2.937em 0.312em var(--clouds-color), 2em -0.312em var(--back-clouds-color), 3.625em -0.062em var(--clouds-color), 2.625em 0em var(--back-clouds-color), 4.5em -0.312em var(--clouds-color), 3.375em -0.437em var(--back-clouds-color), 4.625em -1.75em 0 0.437em var(--clouds-color), 4em -0.625em var(--back-clouds-color), 4.125em -2.125em 0 0.437em var(--back-clouds-color);
+  box-shadow: 0.937em 0.312em var(--clouds-color), -0.312em -0.312em var(--back-clouds-color), 1.437em 0.375em var(--clouds-color), 0.5em -0.125em var(--back-clouds-color), 2.187em 0 var(--clouds-color), 1.25em -0.062em var(--back-clouds-color), 2.937em 0.312em var(--clouds-color), 2em -0.312em var(--back-clouds-color), 3.625em -0.062em var(--clouds-color), 2.625em 0em var(--back-clouds-color), 4.5em -0.312em var(--clouds-color), 3.375em -0.437em var(--back-clouds-color), 4.625em -1.75em 0 0.437em var(--clouds-color), 4em -0.625em var(--back-clouds-color), 4.125em -2.125em 0 0.437em var(--back-clouds-color);
+  -webkit-transition: 0.5s cubic-bezier(0, -0.02, 0.4, 1.25);
+  -o-transition: 0.5s cubic-bezier(0, -0.02, 0.4, 1.25);
+  transition: 0.5s cubic-bezier(0, -0.02, 0.4, 1.25);
+}
+
+.theme-switch__stars-container {
+  position: absolute;
+  color: var(--stars-color);
+  top: -100%;
+  left: 0.312em;
+  width: 2.75em;
+  height: auto;
+  -webkit-transition: var(--transition);
+  -o-transition: var(--transition);
+  transition: var(--transition);
+}
+
+/* actions */
+
+.theme-switch__checkbox:checked + .theme-switch__container {
+  background-color: var(--container-night-bg);
+}
+
+.theme-switch__checkbox:checked + .theme-switch__container .theme-switch__circle-container {
+  left: calc(100% - var(--circle-container-offset) - var(--circle-container-diameter));
+}
+
+.theme-switch__checkbox:checked + .theme-switch__container .theme-switch__circle-container:hover {
+  left: calc(100% - var(--circle-container-offset) - var(--circle-container-diameter) - 0.187em)
+}
+
+.theme-switch__circle-container:hover {
+  left: calc(var(--circle-container-offset) + 0.187em);
+}
+
+.theme-switch__checkbox:checked + .theme-switch__container .theme-switch__moon {
+  -webkit-transform: translate(0);
+  -ms-transform: translate(0);
+  transform: translate(0);
+}
+
+.theme-switch__checkbox:checked + .theme-switch__container .theme-switch__clouds {
+  bottom: -4.062em;
+}
+
+.theme-switch__checkbox:checked + .theme-switch__container .theme-switch__stars-container {
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+/* Common dropdown styling */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 110%;
+    right: 0;
+    background: #fff;
+    box-shadow: var(--box-shadow);
+    border-radius: 0.5rem;
+    min-width: 180px;
+    z-index: 999;
+}
+
+.dropdown .dropdown-content a {
+    display: block;
+    padding: 0.7rem 1rem;
+    color: #333;
+    text-decoration: none;
+}
+
+.dropdown .dropdown-content a:hover {
+    background: #f5f5f5;
+}
+
+.dropdown.active .dropdown-content {
+    display: block;
+}
+
+/* Hide mobile menu button by default */
+.menu-dropdown {
+    display: none;
+}
+
+/* Responsive: show mobile menu button below 1000px */
+@media (max-width: 1300px) {
+    /* Hide normal nav links */
+    .nav-menu .nav-link {
+        display: none;
+    }
+
+    /* Show mobile menu dropdown */
+    .menu-dropdown {
+        display: inline-block;
+    }
+}
+
+
+
+/* Responsivity */
+/* ---------- Responsive Media Queries ---------- */
+/* Fix for .piedavajumi overlapping .about */
+@media (max-width: 1200px) {
+    .piedavajumi {
+        display: flex;
+        flex-direction: column; /* stack cards vertically if needed */
+        justify-content: flex-start; /* align items at the top */
+        align-items: center; /* center horizontally */
+        flex-wrap: nowrap; /* prevent wrapping overlap */
+        margin-top: 4rem; /* ensure space from .about */
+        width: 100%; 
+        height: auto;/* take full width */
+        clear: both; /* prevent overlapping previous content */
+        z-index: 0; /* make sure it’s not on top of .about */
+    }
+
+    .pirmais, .otrais, .tresais {
+        width: 90%; /* make cards narrower for smaller screens */
+        margin-bottom: 2rem; /* spacing between cards */
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .pirmais, .otrais, .tresais {
+        flex: 1 1 45%;
+    }
+    .feature-box, .review-box {
+        flex: 1 1 48%;
+    }
+}
+@media (max-width: 985px) {
+  .features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;   /* center horizontally */
+      align-items: stretch;      /* make rows same height */
+      gap: 1.5rem;
+  }
+
+  .feature-box {
+      flex: 1 1 45%;             /* two boxes per row */
+      max-width: 400px;
+      min-height: 260px;         /* ensure consistent height */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;   /* vertically center content */
+      align-items: center;       /* center icons and text */
+      text-align: center;        /* keep all text centered */
+  }
+
+  .feature-box i {
+      display: block;
+      margin-bottom: 1rem;
+      text-align: center;        /* make sure icon stays centered */
+  }
+}
+
+@media (max-width: 765px) {
+  .features {
+      flex-direction: column;
+      align-items: center;       /* center boxes */
+      justify-content: center;
+  }
+
+  .feature-box {
+      flex: 1 1 100%;
+      width: 90%;                /* consistent width */
+      max-width: 500px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  .piedavajumi, .features, .reviews-container {
+      flex-direction: column;
+      gap: 1rem;
+      align-items: center;       /* Center horizontally */
+      justify-content: center;   /* Optional: center vertically if space allows */
+  }
+    .review-box {
+      width: 90%;                /* Make each review not too wide */
+      max-width: 600px;          /* Optional: limit the max width for nice layout */
+  }
+    .pirmais, .otrais, .tresais,
+    .feature-box, .review-box {
+        flex: 1 1 100%;
+    }
+    .top-card, .middle-card {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 { font-size: 1.5rem; }
+    h2 { font-size: 1.2rem; }
+    h3 { font-size: 1rem; }
+
+    .btn {
+        padding: 0.4rem 0.8rem;
+        font-size: 0.9rem;
+    }
+
+    .modal-content {
+        padding: 1rem;
+        width: 95%;
+    }
+}

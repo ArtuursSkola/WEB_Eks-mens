@@ -1,0 +1,457 @@
+[29-Sep-2025 20:58:25 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 92
+[29-Sep-2025 21:02:19 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 92
+[29-Sep-2025 21:13:02 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 92
+[29-Sep-2025 21:15:32 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 104
+[29-Sep-2025 21:17:54 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 105
+[29-Sep-2025 21:19:55 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 105
+[29-Sep-2025 21:23:07 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 105
+[29-Sep-2025 21:24:39 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 105
+[29-Sep-2025 21:27:54 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 105
+[29-Sep-2025 21:41:09 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 105
+[29-Sep-2025 21:41:29 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 105
+[29-Sep-2025 21:47:01 Europe/Riga] PHP Warning:  Undefined variable $savienojums in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 5
+[29-Sep-2025 21:47:01 Europe/Riga] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php:5
+Stack trace:
+#0 /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php(5): mysqli_query()
+#1 {main}
+  thrown in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 5
+[29-Sep-2025 21:48:17 Europe/Riga] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'grobina1_kliecis.reviews' doesn't exist in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php:6
+Stack trace:
+#0 /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php(6): mysqli_query()
+#1 {main}
+  thrown in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 6
+[29-Sep-2025 21:49:27 Europe/Riga] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'grobina1_kliecis.reviews' doesn't exist in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php:6
+Stack trace:
+#0 /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php(6): mysqli_query()
+#1 {main}
+  thrown in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 6
+[29-Sep-2025 21:49:28 Europe/Riga] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'grobina1_kliecis.reviews' doesn't exist in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php:6
+Stack trace:
+#0 /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php(6): mysqli_query()
+#1 {main}
+  thrown in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 6
+[29-Sep-2025 21:50:37 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[29-Sep-2025 21:51:37 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[29-Sep-2025 21:53:17 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[29-Sep-2025 21:54:18 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[29-Sep-2025 21:58:02 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[29-Sep-2025 22:00:30 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[29-Sep-2025 22:00:50 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[29-Sep-2025 22:04:04 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[29-Sep-2025 22:05:37 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[29-Sep-2025 22:05:47 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[29-Sep-2025 22:06:03 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[29-Sep-2025 22:07:08 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[29-Sep-2025 22:07:52 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[29-Sep-2025 22:08:49 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[29-Sep-2025 22:08:56 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[29-Sep-2025 22:09:12 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[29-Sep-2025 22:10:30 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[29-Sep-2025 22:10:41 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[29-Sep-2025 22:11:00 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[29-Sep-2025 22:11:13 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[29-Sep-2025 22:12:30 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[29-Sep-2025 22:12:58 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[29-Sep-2025 22:13:57 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[29-Sep-2025 22:14:15 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[29-Sep-2025 22:55:48 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[29-Sep-2025 22:58:00 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[29-Sep-2025 23:01:59 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[29-Sep-2025 23:02:42 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[29-Sep-2025 23:09:30 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[29-Sep-2025 23:15:27 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[29-Sep-2025 23:35:32 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[29-Sep-2025 23:35:58 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[29-Sep-2025 23:37:14 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[30-Sep-2025 00:07:26 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[30-Sep-2025 01:07:57 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[30-Sep-2025 01:08:28 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[30-Sep-2025 01:25:38 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[30-Sep-2025 01:29:29 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[30-Sep-2025 01:29:35 Europe/Riga] PHP Warning:  include(../con_db.php): Failed to open stream: No such file or directory in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/piedavajumi.php on line 3
+[30-Sep-2025 01:29:35 Europe/Riga] PHP Warning:  include(): Failed opening '../con_db.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/piedavajumi.php on line 3
+[30-Sep-2025 01:30:01 Europe/Riga] PHP Warning:  include(../con_db.php): Failed to open stream: No such file or directory in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/piedavajumi.php on line 3
+[30-Sep-2025 01:30:01 Europe/Riga] PHP Warning:  include(): Failed opening '../con_db.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/piedavajumi.php on line 3
+[30-Sep-2025 01:30:12 Europe/Riga] PHP Warning:  include(../con_db.php): Failed to open stream: No such file or directory in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/piedavajumi.php on line 3
+[30-Sep-2025 01:30:12 Europe/Riga] PHP Warning:  include(): Failed opening '../con_db.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/piedavajumi.php on line 3
+[30-Sep-2025 01:30:20 Europe/Riga] PHP Warning:  Undefined variable $current_page in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/piedavajumi.php on line 17
+[30-Sep-2025 01:30:20 Europe/Riga] PHP Warning:  Undefined variable $current_page in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/piedavajumi.php on line 18
+[30-Sep-2025 01:30:20 Europe/Riga] PHP Warning:  Undefined variable $current_page in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/piedavajumi.php on line 19
+[30-Sep-2025 01:30:20 Europe/Riga] PHP Warning:  Undefined variable $current_page in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/piedavajumi.php on line 20
+[30-Sep-2025 01:30:32 Europe/Riga] PHP Warning:  Undefined variable $current_page in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/piedavajumi.php on line 17
+[30-Sep-2025 01:30:32 Europe/Riga] PHP Warning:  Undefined variable $current_page in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/piedavajumi.php on line 18
+[30-Sep-2025 01:30:32 Europe/Riga] PHP Warning:  Undefined variable $current_page in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/piedavajumi.php on line 19
+[30-Sep-2025 01:30:32 Europe/Riga] PHP Warning:  Undefined variable $current_page in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/piedavajumi.php on line 20
+[30-Sep-2025 01:31:05 Europe/Riga] PHP Warning:  Undefined variable $current_page in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/piedavajumi.php on line 17
+[30-Sep-2025 01:31:05 Europe/Riga] PHP Warning:  Undefined variable $current_page in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/piedavajumi.php on line 18
+[30-Sep-2025 01:31:05 Europe/Riga] PHP Warning:  Undefined variable $current_page in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/piedavajumi.php on line 19
+[30-Sep-2025 01:31:05 Europe/Riga] PHP Warning:  Undefined variable $current_page in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/piedavajumi.php on line 20
+[30-Sep-2025 01:32:55 Europe/Riga] PHP Warning:  Undefined variable $current_page in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/piedavajumi.php on line 17
+[30-Sep-2025 01:32:55 Europe/Riga] PHP Warning:  Undefined variable $current_page in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/piedavajumi.php on line 18
+[30-Sep-2025 01:32:55 Europe/Riga] PHP Warning:  Undefined variable $current_page in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/piedavajumi.php on line 19
+[30-Sep-2025 01:32:55 Europe/Riga] PHP Warning:  Undefined variable $current_page in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/piedavajumi.php on line 20
+[30-Sep-2025 01:33:43 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[30-Sep-2025 01:34:45 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[30-Sep-2025 01:35:25 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[30-Sep-2025 01:35:32 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[30-Sep-2025 01:35:54 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[30-Sep-2025 01:35:57 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[30-Sep-2025 01:36:30 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[30-Sep-2025 01:36:55 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[30-Sep-2025 01:37:24 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[30-Sep-2025 01:38:06 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[30-Sep-2025 01:38:49 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[30-Sep-2025 01:39:03 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[30-Sep-2025 01:39:12 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[30-Sep-2025 01:39:50 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[30-Sep-2025 01:41:04 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[30-Sep-2025 01:46:55 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[30-Sep-2025 02:22:22 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[30-Sep-2025 11:04:55 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[30-Sep-2025 11:05:04 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[30-Sep-2025 11:05:42 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[30-Sep-2025 11:06:19 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[30-Sep-2025 11:07:08 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[30-Sep-2025 11:07:32 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[30-Sep-2025 11:15:03 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[30-Sep-2025 11:20:54 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[30-Sep-2025 11:31:16 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[30-Sep-2025 11:33:14 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[30-Sep-2025 12:08:58 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[30-Sep-2025 12:08:59 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[30-Sep-2025 23:14:23 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[30-Sep-2025 23:27:50 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[30-Sep-2025 23:27:52 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[30-Sep-2025 23:27:54 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[30-Sep-2025 23:28:00 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[30-Sep-2025 23:28:01 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[30-Sep-2025 23:28:04 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[30-Sep-2025 23:28:09 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[30-Sep-2025 23:28:22 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[30-Sep-2025 23:28:23 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[30-Sep-2025 23:29:40 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[30-Sep-2025 23:29:49 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[30-Sep-2025 23:30:15 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[30-Sep-2025 23:30:24 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[30-Sep-2025 23:30:44 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[30-Sep-2025 23:30:51 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[30-Sep-2025 23:32:21 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[30-Sep-2025 23:33:25 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[30-Sep-2025 23:37:06 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[30-Sep-2025 23:39:39 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[01-Oct-2025 00:18:26 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[01-Oct-2025 00:27:11 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[01-Oct-2025 00:32:00 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[01-Oct-2025 00:32:08 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[01-Oct-2025 00:42:02 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[01-Oct-2025 00:45:03 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[01-Oct-2025 00:45:07 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[01-Oct-2025 00:51:43 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[01-Oct-2025 00:51:50 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[01-Oct-2025 00:55:44 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[01-Oct-2025 00:55:50 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[01-Oct-2025 00:57:21 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[01-Oct-2025 00:58:19 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[01-Oct-2025 00:58:37 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[01-Oct-2025 00:58:41 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[01-Oct-2025 00:59:05 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[01-Oct-2025 00:59:30 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[01-Oct-2025 01:00:08 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[01-Oct-2025 01:00:20 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[01-Oct-2025 01:00:25 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[01-Oct-2025 01:00:41 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[01-Oct-2025 01:00:48 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[01-Oct-2025 01:00:56 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[01-Oct-2025 01:01:16 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[01-Oct-2025 01:01:43 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[01-Oct-2025 01:01:43 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[01-Oct-2025 01:02:02 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[01-Oct-2025 01:02:10 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[01-Oct-2025 01:03:02 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[01-Oct-2025 01:03:26 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[01-Oct-2025 01:03:55 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[01-Oct-2025 01:03:59 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[01-Oct-2025 01:04:10 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[01-Oct-2025 01:04:53 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[01-Oct-2025 01:05:51 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[01-Oct-2025 01:09:57 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[01-Oct-2025 01:14:35 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[01-Oct-2025 01:16:21 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[01-Oct-2025 01:18:01 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[01-Oct-2025 01:22:59 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[01-Oct-2025 01:23:37 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[01-Oct-2025 01:29:05 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[01-Oct-2025 01:29:13 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[01-Oct-2025 01:29:36 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[01-Oct-2025 01:30:03 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[01-Oct-2025 11:35:24 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[01-Oct-2025 11:35:57 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[01-Oct-2025 11:36:48 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[01-Oct-2025 11:37:44 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[01-Oct-2025 11:38:21 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[01-Oct-2025 11:39:36 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[01-Oct-2025 11:40:10 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[01-Oct-2025 11:41:13 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[01-Oct-2025 11:43:34 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[01-Oct-2025 13:12:01 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[01-Oct-2025 13:12:09 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[01-Oct-2025 13:12:15 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[01-Oct-2025 15:38:08 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[01-Oct-2025 15:38:26 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[01-Oct-2025 15:40:26 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[02-Oct-2025 20:44:04 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[02-Oct-2025 20:51:38 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[02-Oct-2025 20:52:17 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 113
+[02-Oct-2025 20:52:48 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 112
+[02-Oct-2025 20:52:59 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 112
+[02-Oct-2025 20:53:06 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 112
+[02-Oct-2025 20:55:23 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 112
+[02-Oct-2025 20:55:53 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 112
+[02-Oct-2025 20:56:30 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 112
+[02-Oct-2025 20:57:22 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 112
+[02-Oct-2025 20:57:58 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 112
+[02-Oct-2025 20:58:40 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 112
+[02-Oct-2025 20:58:57 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 112
+[02-Oct-2025 21:00:25 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 112
+[02-Oct-2025 21:03:10 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 112
+[02-Oct-2025 21:04:29 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 112
+[02-Oct-2025 21:06:51 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 112
+[02-Oct-2025 21:07:30 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 113
+[02-Oct-2025 21:07:58 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 113
+[02-Oct-2025 21:08:04 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 113
+[02-Oct-2025 21:08:16 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 113
+[02-Oct-2025 21:11:29 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 113
+[02-Oct-2025 21:12:33 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 114
+[02-Oct-2025 21:12:45 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 114
+[02-Oct-2025 21:13:07 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 115
+[02-Oct-2025 21:15:57 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 115
+[02-Oct-2025 21:18:07 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 115
+[02-Oct-2025 21:19:09 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 115
+[02-Oct-2025 21:22:44 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 115
+[02-Oct-2025 21:22:53 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 115
+[02-Oct-2025 21:25:37 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 115
+[02-Oct-2025 21:27:12 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 115
+[02-Oct-2025 21:28:02 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 115
+[02-Oct-2025 21:28:53 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 115
+[02-Oct-2025 21:29:24 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 115
+[02-Oct-2025 21:34:04 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 115
+[02-Oct-2025 21:34:42 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 115
+[02-Oct-2025 21:35:04 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 115
+[02-Oct-2025 21:35:11 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 115
+[02-Oct-2025 21:35:18 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 115
+[02-Oct-2025 21:35:31 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 115
+[02-Oct-2025 21:35:44 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 115
+[02-Oct-2025 21:35:52 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 115
+[02-Oct-2025 21:36:01 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 115
+[02-Oct-2025 21:36:10 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 115
+[02-Oct-2025 21:37:34 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 115
+[02-Oct-2025 21:39:10 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 115
+[02-Oct-2025 21:39:26 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 115
+[02-Oct-2025 21:41:24 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 117
+[02-Oct-2025 21:41:31 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 117
+[02-Oct-2025 21:41:40 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 117
+[02-Oct-2025 21:41:56 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 117
+[02-Oct-2025 21:42:21 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 117
+[02-Oct-2025 21:43:26 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 117
+[02-Oct-2025 21:43:41 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 117
+[02-Oct-2025 21:43:47 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 117
+[02-Oct-2025 21:43:52 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 117
+[02-Oct-2025 21:43:59 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 117
+[02-Oct-2025 21:44:24 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 117
+[02-Oct-2025 21:45:01 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 117
+[02-Oct-2025 21:45:17 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 117
+[02-Oct-2025 21:45:34 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 117
+[02-Oct-2025 21:46:43 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 117
+[02-Oct-2025 21:52:46 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 117
+[02-Oct-2025 21:56:49 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 117
+[02-Oct-2025 21:57:14 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 117
+[02-Oct-2025 21:57:35 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 117
+[02-Oct-2025 21:58:44 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 117
+[02-Oct-2025 21:59:22 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 117
+[02-Oct-2025 22:00:48 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 117
+[02-Oct-2025 22:01:58 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 117
+[02-Oct-2025 22:02:28 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 117
+[02-Oct-2025 22:02:41 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 117
+[02-Oct-2025 22:03:08 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 117
+[02-Oct-2025 22:05:09 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 117
+[02-Oct-2025 22:05:43 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 117
+[02-Oct-2025 22:06:00 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 117
+[02-Oct-2025 22:07:17 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 117
+[02-Oct-2025 22:08:00 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 117
+[02-Oct-2025 22:08:22 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 117
+[02-Oct-2025 22:24:36 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 117
+[02-Oct-2025 22:25:10 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 117
+[02-Oct-2025 22:28:53 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 117
+[02-Oct-2025 22:32:44 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 117
+[02-Oct-2025 22:51:24 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 117
+[03-Oct-2025 13:26:36 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 117
+[03-Oct-2025 14:22:19 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 117
+[03-Oct-2025 14:23:22 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 117
+[03-Oct-2025 16:30:35 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 117
+[03-Oct-2025 16:31:10 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 117
+[03-Oct-2025 16:34:37 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 117
+[03-Oct-2025 17:20:22 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 82
+[03-Oct-2025 17:20:27 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 82
+[03-Oct-2025 17:20:32 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 82
+[03-Oct-2025 17:57:29 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 82
+[03-Oct-2025 18:05:21 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 82
+[03-Oct-2025 18:06:33 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 82
+[03-Oct-2025 18:07:27 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 82
+[03-Oct-2025 18:08:11 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 82
+[03-Oct-2025 18:08:41 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 82
+[03-Oct-2025 18:09:37 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 82
+[03-Oct-2025 18:12:35 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 82
+[03-Oct-2025 18:18:02 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 82
+[03-Oct-2025 18:29:09 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 82
+[03-Oct-2025 18:30:31 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 82
+[03-Oct-2025 19:20:09 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 82
+[03-Oct-2025 19:20:15 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 82
+[03-Oct-2025 20:04:42 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 82
+[03-Oct-2025 20:14:38 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 82
+[03-Oct-2025 20:14:38 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 82
+[03-Oct-2025 20:14:38 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 82
+[03-Oct-2025 20:14:40 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 82
+[03-Oct-2025 20:15:12 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 82
+[03-Oct-2025 21:29:26 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 82
+[03-Oct-2025 21:32:38 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 82
+[03-Oct-2025 21:32:51 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 82
+[03-Oct-2025 21:39:52 Europe/Riga] PHP Parse error:  syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 316
+[03-Oct-2025 21:40:06 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 82
+[03-Oct-2025 21:40:27 Europe/Riga] PHP Parse error:  syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 316
+[03-Oct-2025 21:40:57 Europe/Riga] PHP Parse error:  syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 316
+[03-Oct-2025 21:41:25 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 82
+[04-Oct-2025 00:00:29 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 9
+[04-Oct-2025 00:00:29 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 108
+[04-Oct-2025 00:00:41 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 9
+[04-Oct-2025 00:00:41 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 108
+[04-Oct-2025 00:01:09 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 9
+[04-Oct-2025 00:01:09 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 108
+[04-Oct-2025 00:06:29 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 9
+[04-Oct-2025 00:06:29 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 108
+[04-Oct-2025 00:08:57 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 9
+[04-Oct-2025 00:08:57 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 108
+[04-Oct-2025 17:46:42 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 9
+[04-Oct-2025 17:46:42 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 108
+[04-Oct-2025 17:47:43 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 9
+[04-Oct-2025 17:47:43 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 108
+[05-Oct-2025 13:42:58 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 9
+[05-Oct-2025 13:42:58 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 108
+[05-Oct-2025 13:45:46 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 9
+[05-Oct-2025 13:45:46 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 108
+[05-Oct-2025 13:47:28 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 109
+[05-Oct-2025 15:13:17 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[05-Oct-2025 15:13:30 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[05-Oct-2025 15:16:28 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[05-Oct-2025 15:19:11 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[05-Oct-2025 15:21:27 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[05-Oct-2025 15:21:43 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[05-Oct-2025 16:44:09 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[05-Oct-2025 16:44:22 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[05-Oct-2025 16:45:53 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[05-Oct-2025 16:46:03 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[05-Oct-2025 19:16:33 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[05-Oct-2025 19:33:20 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[05-Oct-2025 19:58:41 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[05-Oct-2025 19:58:47 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[05-Oct-2025 20:00:06 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[05-Oct-2025 20:06:32 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[05-Oct-2025 20:08:00 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[05-Oct-2025 20:08:05 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[05-Oct-2025 20:08:22 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[05-Oct-2025 20:09:39 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[05-Oct-2025 20:10:19 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[05-Oct-2025 20:10:44 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[05-Oct-2025 20:14:41 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[05-Oct-2025 20:14:46 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 110
+[05-Oct-2025 20:20:39 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 111
+[05-Oct-2025 20:20:59 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 111
+[05-Oct-2025 20:21:43 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 111
+[05-Oct-2025 20:22:14 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 113
+[05-Oct-2025 20:26:16 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 113
+[05-Oct-2025 20:27:59 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 113
+[05-Oct-2025 20:28:08 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 113
+[05-Oct-2025 20:28:13 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 113
+[05-Oct-2025 20:28:14 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 113
+[05-Oct-2025 20:40:35 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 113
+[05-Oct-2025 20:40:38 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 113
+[05-Oct-2025 21:30:46 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 113
+[05-Oct-2025 22:17:09 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 113
+[05-Oct-2025 22:17:28 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 113
+[05-Oct-2025 22:17:35 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 113
+[05-Oct-2025 22:21:22 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 113
+[05-Oct-2025 22:23:58 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 113
+[05-Oct-2025 22:30:23 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 113
+[05-Oct-2025 22:30:45 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 113
+[05-Oct-2025 22:40:30 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 113
+[05-Oct-2025 22:42:46 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 113
+[05-Oct-2025 22:46:07 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 113
+[05-Oct-2025 22:49:13 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 113
+[05-Oct-2025 23:04:17 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 113
+[05-Oct-2025 23:05:24 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 113
+[06-Oct-2025 00:01:57 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 113
+[06-Oct-2025 09:35:09 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 113
+[06-Oct-2025 09:37:31 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 113
+[06-Oct-2025 09:48:57 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 113
+[06-Oct-2025 09:50:07 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 113
+[07-Oct-2025 00:18:34 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 113
+[07-Oct-2025 00:20:03 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 113
+[07-Oct-2025 00:21:29 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 113
+[07-Oct-2025 00:22:25 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 113
+[07-Oct-2025 00:22:57 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 113
+[07-Oct-2025 00:23:25 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 113
+[07-Oct-2025 00:27:26 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 94
+[07-Oct-2025 00:29:23 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 99
+[07-Oct-2025 00:29:38 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 100
+[07-Oct-2025 00:29:49 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 113
+[07-Oct-2025 00:31:03 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 104
+[07-Oct-2025 01:01:47 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 104
+[07-Oct-2025 01:03:59 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 104
+[07-Oct-2025 01:04:02 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 104
+[07-Oct-2025 01:04:07 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 104
+[07-Oct-2025 01:04:33 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 104
+[07-Oct-2025 01:04:43 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 104
+[07-Oct-2025 01:04:50 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 104
+[07-Oct-2025 01:06:08 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 104
+[07-Oct-2025 01:06:18 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 104
+[07-Oct-2025 01:07:34 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 104
+[07-Oct-2025 01:07:43 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 104
+[07-Oct-2025 01:08:57 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 104
+[07-Oct-2025 01:09:52 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 104
+[07-Oct-2025 01:10:11 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 104
+[07-Oct-2025 01:10:45 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 104
+[07-Oct-2025 01:11:08 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 104
+[07-Oct-2025 01:11:40 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 104
+[07-Oct-2025 01:11:47 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 104
+[07-Oct-2025 01:11:52 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 104
+[07-Oct-2025 01:12:11 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 104
+[07-Oct-2025 01:12:24 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 104
+[07-Oct-2025 01:13:29 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 104
+[07-Oct-2025 01:14:26 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 104
+[07-Oct-2025 01:19:08 Europe/Riga] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php:51
+Stack trace:
+#0 {main}
+  thrown in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 51
+[07-Oct-2025 01:19:50 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 103
+[07-Oct-2025 02:19:12 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 103
+[07-Oct-2025 11:07:36 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 103
+[07-Oct-2025 11:07:42 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 103
+[07-Oct-2025 11:10:40 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 103
+[07-Oct-2025 11:11:21 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 103
+[07-Oct-2025 11:20:05 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 103
+[07-Oct-2025 11:28:14 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 103
+[07-Oct-2025 11:28:47 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 103
+[07-Oct-2025 11:28:59 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 103
+[07-Oct-2025 11:32:05 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 103
+[07-Oct-2025 11:32:44 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 103
+[07-Oct-2025 11:38:03 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 103
+[07-Oct-2025 11:41:44 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 103
+[07-Oct-2025 11:47:43 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 103
+[07-Oct-2025 11:50:33 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 103
+[07-Oct-2025 11:50:56 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 103
+[07-Oct-2025 11:57:22 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 103
+[07-Oct-2025 11:58:13 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 103
+[07-Oct-2025 12:02:27 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 103
+[07-Oct-2025 12:04:31 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 124
+[07-Oct-2025 12:05:37 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 137
+[07-Oct-2025 14:44:50 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 137
+[07-Oct-2025 15:02:06 Europe/Riga] PHP Warning:  Undefined array key "username" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/index.php on line 137

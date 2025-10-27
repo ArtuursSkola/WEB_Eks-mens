@@ -1,0 +1,116 @@
+[29-Sep-2025 22:45:23 Europe/Riga] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'created_at' in 'WHERE' in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/index.php:19
+Stack trace:
+#0 /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/index.php(19): mysqli_query()
+#1 {main}
+  thrown in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/index.php on line 19
+[29-Sep-2025 22:55:36 Europe/Riga] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'grobina1_kliecis.net_subscriptions' doesn't exist in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/index.php:20
+Stack trace:
+#0 /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/index.php(20): mysqli_query()
+#1 {main}
+  thrown in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/index.php on line 20
+[29-Sep-2025 22:58:07 Europe/Riga] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'grobina1_kliecis.net_subscriptions' doesn't exist in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/index.php:20
+Stack trace:
+#0 /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/index.php(20): mysqli_query()
+#1 {main}
+  thrown in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/index.php on line 20
+[29-Sep-2025 22:58:18 Europe/Riga] PHP Warning:  Undefined array key "plan" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/klienti.php on line 64
+[29-Sep-2025 22:58:18 Europe/Riga] PHP Warning:  Undefined array key "plan" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/klienti.php on line 64
+[29-Sep-2025 23:01:51 Europe/Riga] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'grobina1_kliecis.net_subscriptions' doesn't exist in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/index.php:20
+Stack trace:
+#0 /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/index.php(20): mysqli_query()
+#1 {main}
+  thrown in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/index.php on line 20
+[29-Sep-2025 23:02:51 Europe/Riga] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'grobina1_kliecis.net_subscriptions' doesn't exist in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/index.php:20
+Stack trace:
+#0 /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/index.php(20): mysqli_query()
+#1 {main}
+  thrown in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/index.php on line 20
+[29-Sep-2025 23:10:02 Europe/Riga] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'grobina1_kliecis.net_subscriptions' doesn't exist in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/index.php:20
+Stack trace:
+#0 /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/index.php(20): mysqli_query()
+#1 {main}
+  thrown in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/index.php on line 20
+[29-Sep-2025 23:37:21 Europe/Riga] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'grobina1_kliecis.net_subscriptions' doesn't exist in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/index.php:20
+Stack trace:
+#0 /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/index.php(20): mysqli_query()
+#1 {main}
+  thrown in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/index.php on line 20
+[30-Sep-2025 00:26:57 Europe/Riga] PHP Warning:  Undefined variable $app_count in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/index.php on line 89
+[03-Oct-2025 01:01:50 Europe/Riga] PHP Parse error:  syntax error, unexpected token "..." in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/klienti.php on line 23
+[03-Oct-2025 01:01:55 Europe/Riga] PHP Parse error:  syntax error, unexpected token "..." in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/klienti.php on line 23
+[03-Oct-2025 01:02:26 Europe/Riga] PHP Parse error:  syntax error, unexpected token "..." in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/klienti.php on line 17
+[03-Oct-2025 01:02:51 Europe/Riga] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '...) VALUES (...)' at line 1 in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/klienti.php:20
+Stack trace:
+#0 /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/klienti.php(20): mysqli_query()
+#1 {main}
+  thrown in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/klienti.php on line 20
+[03-Oct-2025 14:20:03 Europe/Riga] PHP Warning:  Undefined array key "plan_purchased_at" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/klienti.php on line 84
+[03-Oct-2025 14:20:03 Europe/Riga] PHP Warning:  Undefined array key "plan_purchased_at" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/klienti.php on line 84
+[03-Oct-2025 14:20:03 Europe/Riga] PHP Warning:  Undefined array key "plan_purchased_at" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/klienti.php on line 84
+[03-Oct-2025 14:20:03 Europe/Riga] PHP Warning:  Undefined array key "plan_purchased_at" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/klienti.php on line 84
+[03-Oct-2025 14:20:03 Europe/Riga] PHP Warning:  Undefined array key "plan_purchased_at" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/klienti.php on line 84
+[03-Oct-2025 15:05:54 Europe/Riga] PHP Warning:  Undefined variable $days_left in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/klienti.php on line 84
+[03-Oct-2025 15:06:03 Europe/Riga] PHP Warning:  Undefined variable $days_left in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/klienti.php on line 84
+[03-Oct-2025 15:06:09 Europe/Riga] PHP Warning:  Undefined variable $days_left in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/klienti.php on line 84
+[03-Oct-2025 15:06:50 Europe/Riga] PHP Warning:  Undefined variable $days_left in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/klienti.php on line 84
+[03-Oct-2025 15:07:03 Europe/Riga] PHP Warning:  Undefined variable $days_left in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/klienti.php on line 84
+[03-Oct-2025 15:08:03 Europe/Riga] PHP Warning:  Undefined variable $days_left in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/klienti.php on line 84
+[03-Oct-2025 15:14:03 Europe/Riga] PHP Warning:  Undefined variable $days_left in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/klienti.php on line 83
+[03-Oct-2025 15:14:03 Europe/Riga] PHP Warning:  Undefined variable $days_left in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/klienti.php on line 85
+[03-Oct-2025 15:14:03 Europe/Riga] PHP Warning:  Undefined variable $days_left in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/klienti.php on line 83
+[03-Oct-2025 15:14:03 Europe/Riga] PHP Warning:  Undefined variable $days_left in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/klienti.php on line 85
+[03-Oct-2025 15:14:03 Europe/Riga] PHP Warning:  Undefined variable $days_left in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/klienti.php on line 83
+[03-Oct-2025 15:14:03 Europe/Riga] PHP Warning:  Undefined variable $days_left in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/klienti.php on line 85
+[03-Oct-2025 15:14:03 Europe/Riga] PHP Warning:  Undefined variable $days_left in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/klienti.php on line 83
+[03-Oct-2025 15:14:03 Europe/Riga] PHP Warning:  Undefined variable $days_left in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/klienti.php on line 85
+[03-Oct-2025 15:14:03 Europe/Riga] PHP Warning:  Undefined variable $days_left in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/klienti.php on line 83
+[03-Oct-2025 15:14:03 Europe/Riga] PHP Warning:  Undefined variable $days_left in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/klienti.php on line 85
+[03-Oct-2025 15:14:03 Europe/Riga] PHP Warning:  Undefined variable $days_left in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/klienti.php on line 83
+[03-Oct-2025 15:14:03 Europe/Riga] PHP Warning:  Undefined variable $days_left in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/klienti.php on line 85
+[03-Oct-2025 15:14:03 Europe/Riga] PHP Warning:  Undefined variable $days_left in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/klienti.php on line 83
+[03-Oct-2025 15:14:03 Europe/Riga] PHP Warning:  Undefined variable $days_left in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/klienti.php on line 85
+[03-Oct-2025 15:14:03 Europe/Riga] PHP Warning:  Undefined variable $days_left in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/klienti.php on line 83
+[03-Oct-2025 15:14:03 Europe/Riga] PHP Warning:  Undefined variable $days_left in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/klienti.php on line 85
+[03-Oct-2025 15:14:03 Europe/Riga] PHP Warning:  Undefined variable $days_left in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/klienti.php on line 83
+[03-Oct-2025 15:14:03 Europe/Riga] PHP Warning:  Undefined variable $days_left in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/klienti.php on line 85
+[03-Oct-2025 15:14:03 Europe/Riga] PHP Warning:  Undefined variable $days_left in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/klienti.php on line 83
+[03-Oct-2025 15:14:03 Europe/Riga] PHP Warning:  Undefined variable $days_left in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/klienti.php on line 85
+[03-Oct-2025 15:14:10 Europe/Riga] PHP Warning:  Undefined variable $days_left in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/klienti.php on line 84
+[03-Oct-2025 17:15:42 Europe/Riga] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/header.php on line 2
+[03-Oct-2025 17:15:44 Europe/Riga] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/header.php on line 2
+[03-Oct-2025 17:15:54 Europe/Riga] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/header.php on line 2
+[03-Oct-2025 17:16:31 Europe/Riga] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/header.php on line 2
+[03-Oct-2025 17:56:29 Europe/Riga] PHP Warning:  Undefined variable $loma in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/header.php on line 28
+[05-Oct-2025 23:15:10 Europe/Riga] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'grobina1_kliecis.piedavajumi' doesn't exist in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/piedavajumi.php:19
+Stack trace:
+#0 /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/piedavajumi.php(19): mysqli_query()
+#1 {main}
+  thrown in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/piedavajumi.php on line 19
+[05-Oct-2025 23:15:38 Europe/Riga] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'grobina1_kliecis.piedavajumi' doesn't exist in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/piedavajumi.php:19
+Stack trace:
+#0 /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/piedavajumi.php(19): mysqli_query()
+#1 {main}
+  thrown in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/piedavajumi.php on line 19
+[05-Oct-2025 23:16:25 Europe/Riga] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'grobina1_kliecis.piedavajumi' doesn't exist in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/piedavajumi.php:28
+Stack trace:
+#0 /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/piedavajumi.php(28): mysqli_query()
+#1 {main}
+  thrown in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/piedavajumi.php on line 28
+[07-Oct-2025 11:49:20 Europe/Riga] PHP Warning:  Undefined array key "plan_expires_at" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/klienti.php on line 64
+[07-Oct-2025 11:49:41 Europe/Riga] PHP Warning:  Undefined array key "plan_expires_at" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/klienti.php on line 61
+[07-Oct-2025 11:49:41 Europe/Riga] PHP Warning:  Undefined array key "plan_expires_at" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/klienti.php on line 61
+[07-Oct-2025 11:49:41 Europe/Riga] PHP Warning:  Undefined array key "plan_expires_at" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/klienti.php on line 61
+[07-Oct-2025 11:49:41 Europe/Riga] PHP Warning:  Undefined array key "plan_expires_at" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/klienti.php on line 61
+[07-Oct-2025 11:49:41 Europe/Riga] PHP Warning:  Undefined array key "plan_expires_at" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/klienti.php on line 61
+[07-Oct-2025 11:49:41 Europe/Riga] PHP Warning:  Undefined array key "plan_expires_at" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/klienti.php on line 61
+[07-Oct-2025 11:49:41 Europe/Riga] PHP Warning:  Undefined array key "plan_expires_at" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/klienti.php on line 61
+[07-Oct-2025 11:49:41 Europe/Riga] PHP Warning:  Undefined array key "plan_expires_at" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/klienti.php on line 61
+[07-Oct-2025 11:49:41 Europe/Riga] PHP Warning:  Undefined array key "plan_expires_at" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/klienti.php on line 61
+[07-Oct-2025 11:49:41 Europe/Riga] PHP Warning:  Undefined array key "plan_expires_at" in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/klienti.php on line 61
+[07-Oct-2025 11:56:51 Europe/Riga] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'created_at' in 'WHERE' in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/index.php:40
+Stack trace:
+#0 /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/index.php(40): mysqli_query()
+#1 {main}
+  thrown in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/index.php on line 40
+[07-Oct-2025 11:59:42 Europe/Riga] PHP Warning:  Undefined variable $orders_count in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/index.php on line 111
+[07-Oct-2025 12:00:38 Europe/Riga] PHP Warning:  Undefined variable $orders_count in /home/grobina1/public_html/4pt/kliecis/Net-Pakalpojumi/admin/index.php on line 111
